@@ -1,0 +1,18 @@
+@media only screen and (max-width: 640px) {
+  .dashboard-right {
+    display: none;
+  }
+}
+#dash-main{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  background-image: url(../../../public/bg2.png) !important;
+  background-size: cover;
+}
+.dashboard-right{
+  width: 45%;
+}
+.dash-right{
+  width: 20%;
+}
