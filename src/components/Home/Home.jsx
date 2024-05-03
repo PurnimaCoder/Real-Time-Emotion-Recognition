@@ -6,6 +6,8 @@ import overallEmotionAnalysis from "../../assets/overallEmotionAnalysis-1.jpg";
 import face from "./face.jpg"
 
 const Home = () => {
+  let date = new Date();
+  let year = date.getFullYear();
   return(
     <>
       <section className="banner w-full flex flex-col items-center justify-between min-h-fit" id="home-page">
@@ -46,7 +48,8 @@ const Home = () => {
           </div>
           </div>
           </div>
-       
+       <div style={{marginTop:"-4rem",color:"black",fontSize:"15px",paddingBottom:".5rem",fontWeight:"bold"}}>Designed & Developed by Ms. Purnima Panda</div>
+       <div style={{color:"black",fontSize:"15px",fontWeight:"bold",paddingBottom:"1rem",fontStyle:"italic"}}>Copyright © {year} Purnima Panda</div>
       </section>
 
 
