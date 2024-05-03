@@ -9,7 +9,8 @@ img {
 }
 #home-page{
   background-image: url(../../../public/bg2.png) !important;
-  background-size: cover;
+  background-size:cover;
+  padding-bottom: 6rem;
 }
 .home-face-emotion{
   width: 90%;
@@ -38,4 +39,30 @@ img {
   margin-bottom: 2rem;
   background-color: darkcyan;
   text-transform: capitalize;
+}
+#home-de{
+  margin-top:-4rem;
+  padding-bottom: .5rem;
+  font-size: 15px;
+  color:black;
+}
+@media screen and (max-width : 1024px){
+  #home-de{
+    margin-top:0;
+  }
+}
+@media screen and (max-width : 650px){
+  .home-main{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  #home-left{
+    width:90%
+  }
+  #home-right{
+    width:90%
+  }
+  
 }

@@ -10,13 +10,13 @@ const Home = () => {
   let year = date.getFullYear();
   return(
     <>
-      <section className="banner w-full flex flex-col items-center justify-between min-h-fit" id="home-page">
+      <section className="banner w-full flex flex-col items-center justify-between h-full" id="home-page">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between md:justify-between lg:min-h-screen min-w-full" >
 
           <div className="home-face-emotion">
             <div className="home-main">
           <div className="banner-left  flex flex-col items-start justify-start" id="home-left">
-            <p className="banner-title  text-3xl lg:text-4xl text-gray-900 p-2 lg:p-3 border-none rounded-lg " id="home-title">Face Emotion Recognition</p>
+            <p className="banner-title  text-3xl lg:text-4xl text-gray-900 p-2 mt-4 lg:p-3 border-none rounded-lg " id="home-title">Face Emotion Recognition</p>
             <p className="banner-description font-poppins text-lg lg:text-xl text-gray-700 mt-4 ml-2">
               Recognizes the faces in a Video Stream.
             </p>
@@ -48,8 +48,8 @@ const Home = () => {
           </div>
           </div>
           </div>
-       <div style={{marginTop:"-4rem",color:"black",fontSize:"15px",paddingBottom:".5rem",fontWeight:"bold"}}>Designed & Developed by Ms. Purnima Panda</div>
-       <div style={{color:"black",fontSize:"15px",fontWeight:"bold",paddingBottom:"1rem",fontStyle:"italic"}}>Copyright © {year} Purnima Panda</div>
+       <div id="home-de" >Designed & Developed by Ms. Purnima Panda</div>
+       <div style={{color:"black",fontSize:"15px",paddingBottom:"1rem",fontStyle:"italic"}}>Copyright © {year} Purnima Panda</div>
       </section>
 
 
